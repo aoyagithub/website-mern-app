@@ -1,0 +1,43 @@
+.header {
+  height: 76px;
+  padding-top: 32px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .title {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li + li {
+    margin-left: 1em;
+  }
+  li {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .sp-br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0;
+    .title {
+      font-size: 18px;
+    }
+    .sp-br {
+      display: block;
+    }
+  }
+}

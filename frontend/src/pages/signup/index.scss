@@ -1,0 +1,43 @@
+.signup {
+  h2 {
+    font-size: 40px;
+    line-height: 66px;
+    margin-bottom: 1rem;
+  }
+  input {
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 500;
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+    background-color: #fbf7ef;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    margin-bottom: 2rem;
+    width: 28rem;
+  }
+  .button {
+    margin-top: 1rem;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .signup {
+    input {
+      width: 100%;
+      font-size: 24px;
+    }
+  }
+}

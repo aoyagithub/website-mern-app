@@ -1,0 +1,39 @@
+.article {
+  h2 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #000;
+    span {
+      margin-bottom: 1rem;
+      display: block;
+      border: none;
+    }
+  }
+  .button {
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    padding-bottom: 0.25rem;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article {
+    h2 {
+      font-size: 40px;
+    }
+    .button {
+      font-size: 18px;
+    }
+  }
+}

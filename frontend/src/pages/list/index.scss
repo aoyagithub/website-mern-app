@@ -1,0 +1,29 @@
+.articles {
+  h2 {
+    margin-bottom: 0.75rem;
+  }
+  li {
+    .link {
+      padding: 1rem 0;
+      display: block;
+    }
+
+    border-top: 1px solid #000;
+    &:last-child {
+      border-bottom: 1px solid #000;
+    }
+  }
+  .badge {
+    border: 1px solid #000;
+    text-transform: uppercase;
+    padding: 0.5rem 0.75rem;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    border-radius: 9999px;
+  }
+  p {
+    font-weight: 500;
+  }
+}
