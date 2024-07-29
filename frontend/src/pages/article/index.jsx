@@ -25,7 +25,7 @@ const Article = () => {
       setArticle(jsonRes);
     };
     getArticle();
-  }, []);
+  }, [params.id, article]);
 
   return (
     <div className="article">
